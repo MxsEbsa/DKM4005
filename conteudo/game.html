@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate_oed.css">
+	<link rel="stylesheet" href="css/tempos_animacoes.css">
+	<link rel="stylesheet" href="css/tempos_animacoes.css">
+	<link rel="stylesheet" href="css/movimento_falas.css">
+</head>
+<body>
+	
+<!-- HTML DO OED AQUI -->
+<div class="OED">
+<!-- HTML DO OED AQUI -->
+	<!-- Vídeo de apresentação e conclusão -->
+	<div id="area_video">
+		<div id="video_area_btn_video">
+			<div id="area_video_btn_video_rotulo" onclick="fechar_video();">Avançar<br />ao jogo</div>
+		</div>
+		<video id="video_palco" width="1024" height="660" controls onended="fechar_video();">
+				<source src="./media/video/video_inicial.mp4" type="video/mp4">
+		</video>		
+	</div>
+	<!-- Fim dos vídeos apresentação e conclusão -->
+	<!-- Área do jogo -->
+	<div id="jogo_area">
+		<div id="jogo_area_tabela"></div>
+		<div id="jogo_area_tabela_numeros"></div>
+		<!-- Abaixo estão os botões para pontos ativos da tabela de números -->
+		<div id="jogo_area_tabela_ponto_selecao_1" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_2" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_3" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_4" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_5" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_6" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_7" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_8" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_9" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_10" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_11" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_12" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_13" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_14" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_15" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_16" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_17" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_18" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_19" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_20" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_21" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_22" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_23" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_24" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_25" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_26" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_27" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_28" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_29" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_30" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_31" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_32" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_33" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_34" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_35" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_36" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_37" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_38" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_39" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_40" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_41" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_42" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_43" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_44" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_45" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_46" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_47" class="jogo_area_tabela_ponto_selecao" onclick="marcar_verde(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_48" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<div id="jogo_area_tabela_ponto_selecao_49" class="jogo_area_tabela_ponto_selecao" onclick="marcar_vermelho(this.id)"></div>
+		<!-- Abaixo estão as coberturas para botões de pontos ativos da tabela de números -->	
+		<div id="jogo_area_tabela_ponto_selecao_1_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_2_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_3_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_4_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_5_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_6_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_7_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_8_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_9_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_10_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_11_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_12_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_13_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_14_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_15_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_16_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_17_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_18_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_19_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_20_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_21_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_22_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_23_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_24_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_25_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_26_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_27_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_28_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_29_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_30_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_31_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_32_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_33_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_34_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_35_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_36_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_37_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_38_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_39_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_40_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_41_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_42_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_43_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_44_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_45_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_46_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_47_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_48_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<div id="jogo_area_tabela_ponto_selecao_49_cobertura" class="jogo_area_tabela_ponto_selecao_cobertura"></div>
+		<!-- Abaixo estão as coberturas para botões que determinam apenas as colunas -->	
+		<div id="jogo_area_tabela_ponto_selecao_1_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_2_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_3_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_4_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_5_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_6_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>
+		<div id="jogo_area_tabela_ponto_selecao_7_cobertura_coluna" class="jogo_area_tabela_ponto_selecao_cobertura_coluna"></div>	
+
+	
+		<div id="jogo_area_bloco_textos">
+			<div id="jogo_area_area_textos_comando">
+			<!-- Abaixo estão os textos de comando para cada etapa do objeto -->
+				<div id="jogo_area_bloco_textos_comando_fase1" class="jogo_area_bloco_textos_comando">
+					Comece pintando o número 1 de vermelho. Ele não é um dos números primos.
+				</div>
+				<div id="jogo_area_bloco_textos_comando_fase2" class="jogo_area_bloco_textos_comando">
+					Pinte de verde o número 2.
+				</div>		
+				<div id="jogo_area_bloco_textos_comando_fase3" class="jogo_area_bloco_textos_comando">
+					Agora pinte de vermelho os múltiplos de 2, que, assim como o número 1, não são primos.
+				</div>
+				<div id="jogo_area_bloco_textos_comando_fase3erro" class="jogo_area_bloco_textos_comando">
+					Esse número não é múltiplo de 2. Tente outro.
+				</div>					
+				<div id="jogo_area_bloco_textos_comando_fase4" class="jogo_area_bloco_textos_comando">
+					Agora que terminamos de excluir os múltiplos de 2, vamos destacar o próximo número não pintado:<br />o número 3. Ele é um número primo.
+				</div>	
+				<div id="jogo_area_bloco_textos_comando_fase5" class="jogo_area_bloco_textos_comando">
+					Pinte de vermelho os múltiplos de 3.
+				</div>
+				<div id="jogo_area_bloco_textos_comando_fase5erro" class="jogo_area_bloco_textos_comando">
+					Esse número não é múltiplo de 3. Tente outro.
+				</div>					
+				<div id="jogo_area_bloco_textos_comando_fase6" class="jogo_area_bloco_textos_comando">
+					Agora que terminamos de excluir os múltiplos de 3, vamos destacar o próximo número não pintado:<br />o número 5. Ele é um número primo.
+				</div>	
+				<div id="jogo_area_bloco_textos_comando_fase7" class="jogo_area_bloco_textos_comando">
+					Pinte de vermelho os múltiplos de 5.
+				</div>
+				<div id="jogo_area_bloco_textos_comando_fase7erro" class="jogo_area_bloco_textos_comando">
+					Esse número não é múltiplo de 5. Tente outro.
+				</div>					
+				<div id="jogo_area_bloco_textos_comando_fase8" class="jogo_area_bloco_textos_comando">
+					Agora que terminamos de excluir os múltiplos de 5, vamos destacar o próximo número não pintado:<br />o número 7. Ele é um número primo.
+				</div>	
+				<div id="jogo_area_bloco_textos_comando_fase9" class="jogo_area_bloco_textos_comando">
+					Pinte de vermelho os múltiplos de 7.
+				</div>
+				<div id="jogo_area_bloco_textos_comando_fase9erro" class="jogo_area_bloco_textos_comando">
+					Esse número não é múltiplo de 7. Tente outro.
+				</div>					
+				<div id="jogo_area_bloco_textos_comando_fase10" class="jogo_area_bloco_textos_comando">
+					E, finalmente, como organizamos os números em uma quantidade igual de linhas e colunas, e já pintamos toda a primeira linha, todo os números que sobraram são primos! Pinte-os de verde.
+				</div>					
+			</div>
+			
+		<div id="jogo_area_bloco_cores">
+			<div id="jogo_area_bloco_cores_cobertura"></div>
+			<div id="jogo_area_bloco_titulo">Primos até 49</div>
+			
+			<div id="jogo_area_bloco_primo">é primo
+				<div id="jogo_area_bloco_primo_btn"></div>
+			</div>
+			
+			<div id="jogo_area_bloco_nao_primo">não é primo
+				<div id="jogo_area_bloco_nao_primo_btn"></div>
+			</div>
+			<div id="jogo_area_bloco_divisa_btns"></div>
+		</div>
+			
+		</div>
+		<div id="jogo_area_bloco_textos_btn_ok" onclick="fechar_comando();"></div>
+		<div id="jogo_area_eratostenes_tronco"></div>
+		<div id="jogo_area_eratostenes">
+			 <div id="jogo_area_eratostenes_olhos_fechados" class="animacao_1_repete personagem_piscada"></div>
+			<div id="jogo_area_eratostenes_boca_aberta"> 
+			</div>
+		</div>
+		
+		<div id="jogo_area_rodape_tabela"></div>
+		<div id="jogo_area_btn_video">
+			<div id="jogo_area_btn_video_rotulo" onclick="assistir_video();">Assista<br />ao vídeo</div>
+		</div>
+		
+	
+	
+	</div>
+	<!-- Fim da área do jogo -->
+</div>	
+	<!-- CARREGAMENTO DE SCRIPTS -->
+	<script type="text/javascript" src="../js/carrega_oed.js"></script>
+	<script type="text/javascript" src="js/funcoes.js"></script>	
+	<script type="text/javascript" src="js/controles_video.js"></script>	
+</body>	
+</html>

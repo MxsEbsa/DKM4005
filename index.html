@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+    <link rel="stylesheet" href="css/fontsAkpalo.css" /> <!-- AKPALO -->
+	<link rel="stylesheet" href="css/animate_custom.css">
+	<link rel="stylesheet" href="css/magic.min.css">
+	<link rel="stylesheet" href="css/times.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+	<div id="loading"><img src="img/loader.gif" alt="Carregando"></div>
+	<!-- Elementos para a capa -->
+	<div class="EbsaGame">
+	
+		<div id="cobertura_cliques"></div>
+		<div id="cobertura_menu_atvidao"></div>
+		<div class="capa trocaCor" data-cor="capa">
+			<div class="iniciar trocaCor" data-cor="iniciar">Iniciar</div>
+			<div class="akpalo_btn_creditos trocaCor" data-cor="btn_creditos">Créditos</div>
+			
+			<div class="akpalo_capa_disciplina capaNomeDisciplina"></div>
+			
+			<div class="akpalo_capa_logotipo trocaCor" data-cor="capa_logotipo"></div>
+			
+			<div class="akpalo_capa_logotipo_ebsa"></div>
+			
+			<div class="akpalo_capa_quadro_ano trocaCor" data-cor="capa_quadro_ano">
+				<div class="akpalo_capa_quadro_ano_contagem trocaAno"></div>
+			</div>
+			
+			<div class="akpalo_capa_titulo trocaCor tituloCapa" data-cor="capa_titulo"></div>
+		</div>
+		<!-- Elementos para o quadro de créditos -->
+		<div id="grupo_creditos" style="display:none">
+		<div class="creditos_cobertura"></div>
+		<div class="akpalo_quadro_creditos">
+			<div class="akpalo_quadro_creditos_titulo trocaCor quadroCreditos" data-cor="quadro_creditos_titulo"></div>
+			<div class="akpalo_quadro_creditos_divisa"></div>
+			<div class="akpalo_quadro_rodape"></div>
+			<div class="akpalo_area_txt_creditos">
+				<div class="creditos"></div>
+			</div>
+			<div class="akpalo_quadro_creditos_fechar trocaCor" data-cor="quadro_creditos_fechar">Fechar</div>
+		</div>
+		
+		</div>
+		<!-- Elementos para o cabeçalho e botões de ajuda -->
+		<div class="header">
+			<div class="titulo_objeto trocaCor" data-cor="titulo_objeto"></div>
+			<div class="titulo_disciplina trocaCor capaNomeDisciplina" data-cor="titulo_disciplina"></div>	
+			<div title="Abrir menu" alt="Abrir menu" class="btn_menu trocaCor" data-cor="btn_menu"></div>
+			<div class="btn_home trocaCor" data-cor="btn_home"></div>
+			<div title="Mostrar instruções" alt="Mostrar instruções" class="btn_instrucoes trocaCor" data-cor="btn_instrucoes"></div>
+			<div class="btn_instrucoes_ativado" title="Fechar instruções" alt="Fechar instruções"></div>
+		</div>
+
+		<!-- Elementos para o quadro de instruções -->
+		<div class="quadro_instrucoesT InstrucoesPrincipal">
+			<div class="quadro_instrucoesTC">
+				<div class="content quadro_instrucoes">
+					<div class="instrucoes_aba_ativada"></div>
+					<div class="instrucoes_aba_navegabilidade trocaCor" data-cor="instrucoes_aba_navegabilidade">Navegabilidade</div>
+					<div class="instrucoes_aba_instrucoes">Instruções</div>
+					<p class="texto_instrucoes"></p>
+					<p class="texto_navegabilidade"></p>
+					<div class="btn_fechar_instrucoes trocaCor" title="Fechar instruções" alt="Fechar instruções" data-cor="btn_fechar_instrucoes"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- CONTEÚDO DO JOGO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE-->
+		<div class="conteudo">
+			<iframe id="frame_game" name="frame_game" width="100%" height="660px" src="./conteudo/game.html" frameBorder="0" scrolling="no"></iframe>
+
+		</div>
+		<!-- CONTEÚDO DO JOGO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE-->
+	
+		<!-- CONTEÚDO DE VÍDEO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE -->
+		<video width="1024" height="660" controls src="./conteudo/media/video/video_inicial.mp4" id="videoPrincipalOedVideo" onended="fechar_video_template();"></video>
+		<!-- <video width="1024" height="660" controls id="videoPrincipalOedVideo" onended="fechar_video_template();">
+			<source src="./conteudo/media/video/video_inicial.mp4" type="video/mp4">
+			<source src="./conteudo/media/video/video_inicial.webm" type="video/webm">
+			<source src="./conteudo/media/video/video_inicial.ogg" type="video/ogg">
+		
+		</video> -->
+		<!-- CONTEÚDO DE VÍDEO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE -->
+	</div>
+
+
+	<script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/pxloader.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>	
+	<script type="text/javascript" src="js/template.js"></script>
+	<script type="text/javascript" src="js/animacoes.js"></script>
+</body>
+</html>

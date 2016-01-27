@@ -1,0 +1,726 @@
+/* SEU CSS AQUI */
+#area_video{
+	position:absolute;
+	width:1024px;
+	height:660px;
+	left:0px;
+	top:0px;
+	background:#000000;
+	z-index:900;
+	display:inherit;	
+	
+}
+
+
+#jogo_area{
+	position:absolute;
+	width:1024px;
+	height:660px;
+	left:0px;
+	top:0px;
+	/*background:#238C00;*/
+	display:inherit;
+	z-index:100;
+	background-image: url("../img/jogo_area.gif");
+	background-repeat: repeat;
+	background-position: left top;
+	display:none;
+}
+#jogo_area_tabela{
+	position:absolute;
+	width:606px;
+	height:615px;
+	left:24px;
+	top:22px;
+	z-index:1;
+	background-color: rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.7);
+	background-image: url("../img/jogo_area_tabela.png");
+	background-repeat: repeat;
+	background-position: center center;	
+}
+#jogo_area_btn_video, #video_area_btn_video{
+	position:absolute;
+	width:89px;
+	height:135px;
+	right:12px;
+	top:12px;
+	z-index:30;
+	background-image: url("../img/jogo_area_btn_video.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+
+}
+#jogo_area_btn_video_rotulo, #area_video_btn_video_rotulo{
+	color:#ffffff;
+	font-size:18px;
+	line-height:84%;
+	padding-top:86px;
+	text-align:center;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';
+}
+#jogo_area_tabela_numeros{
+	position:absolute;
+	width:606px;
+	height:615px;
+	left:24px;
+	top:22px;
+	z-index:10;
+	background-image: url("../img/jogo_area_tabela_numeros.png");
+	background-repeat: repeat;
+	background-position: center center;	
+}
+
+.jogo_area_tabela_ponto_selecao{
+	position:absolute;
+	width:76px;
+	height:76px;
+	z-index:21;
+	background-image: url("../img/jogo_area_tabela_marca_vazio.png");
+	background-repeat: repeat;
+	background-position: center center;	
+	/*opacity:0.34;*/
+	cursor:pointer;
+}
+.jogo_area_tabela_ponto_selecao_cobertura{
+	position:absolute;
+	width:76px;
+	height:76px;
+	z-index:20;
+	/*background:#333;opacity:0.3;*/
+	background-image: url("../img/jogo_area_tabela_marca_vazio.png");
+	background-repeat: repeat;
+	background-position: center center;	
+	cursor:pointer;
+}
+.jogo_area_tabela_ponto_selecao_cobertura_coluna{
+	position:absolute;
+	width:76px;
+	height:76px;
+	z-index:200;
+	/*background:#333;opacity:0.8;*/
+	background-image: url("../img/jogo_area_tabela_marca_vazio.png");
+	background-repeat: repeat;
+	background-position: center center;	
+	cursor:pointer;
+	display:none;
+}
+
+
+
+#jogo_area_bloco_textos{
+	position:absolute;
+	width:394px;
+	height:356px;
+	right:0px;
+	bottom:29px;
+	z-index:2;
+	/*background:#00bcd4;*/
+	background:#007495;
+	background-image: url("../img/jogo_area_bloco_textos.png");
+	background-repeat: repeat-x;
+	background-position: left top;
+	box-shadow:inset 0px 0px 20px #000000;
+	display:inherit;
+	
+}
+#jogo_area_area_textos_comando{
+	position:absolute;
+	width:354px;
+	height:290px;
+	right:20px;
+	bottom:20px;
+	z-index:4;
+}
+.jogo_area_bloco_textos_comando{
+	position:absolute;
+	width:100%;
+	height:100%;
+	right:0px;
+	bottom:0px;
+	z-index:4;
+	/*background:#ccc;*/
+	color:#ffffff;
+	font-size:24px;
+	line-height:130%;
+	text-align:center;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';
+	/*display:none;*/
+}
+#jogo_area_bloco_textos_comando_fase1, #jogo_area_bloco_textos_comando_fase2, #jogo_area_bloco_textos_comando_fase3, #jogo_area_bloco_textos_comando_fase3erro, #jogo_area_bloco_textos_comando_fase4, #jogo_area_bloco_textos_comando_fase5, #jogo_area_bloco_textos_comando_fase5erro, #jogo_area_bloco_textos_comando_fase6, #jogo_area_bloco_textos_comando_fase7, #jogo_area_bloco_textos_comando_fase7erro, #jogo_area_bloco_textos_comando_fase8, #jogo_area_bloco_textos_comando_fase9, #jogo_area_bloco_textos_comando_fase9erro, #jogo_area_bloco_textos_comando_fase10{
+	display:none;
+}
+#jogo_area_bloco_textos_comando_fase1{
+	display:inherit;
+}
+	
+
+#jogo_area_bloco_textos_comando_fase1, #jogo_area_bloco_textos_comando_fase3{
+	font-size:28px;
+	bottom:-28px;
+}
+#jogo_area_bloco_textos_comando_fase2{
+	font-size:28px;
+	bottom:-80px;
+}
+#jogo_area_bloco_textos_comando_fase3erro{
+	font-size:27px;
+	bottom:-50px;
+}
+#jogo_area_bloco_textos_comando_fase4{
+	font-size:25px;
+	bottom:-24px;
+}
+#jogo_area_bloco_textos_comando_fase5, #jogo_area_bloco_textos_comando_fase7, #jogo_area_bloco_textos_comando_fase9{
+	font-size:30px;
+	bottom:-50px;
+}
+#jogo_area_bloco_textos_comando_fase5erro{
+	font-size:26px;
+	bottom:-56px;
+}
+#jogo_area_bloco_textos_comando_fase6{
+	font-size:24px;
+	bottom:-28px;
+}
+#jogo_area_bloco_textos_comando_fase7erro, #jogo_area_bloco_textos_comando_fase9erro{
+	font-size:27px;
+	bottom:-56px;	
+}
+#jogo_area_bloco_textos_comando_fase8{
+	font-size:24px;
+	bottom:-30px;	
+}
+#jogo_area_bloco_textos_comando_fase10{
+	font-size:23px;
+	bottom:-16px;		
+}
+#jogo_area_bloco_cores{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	display:none;
+	
+}
+
+
+#jogo_area_bloco_titulo{
+	position:absolute;
+	width:354px;
+	height:290px;
+	right:20px;
+	bottom:20px;
+	z-index:4;
+	color:#ffffff;
+	font-size:44px;
+	line-height:100%;
+	text-align:center;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';	
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px #000000;
+}
+#jogo_area_bloco_cores_cobertura{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	right:0px;
+	z-index:100;
+	background-image: url("../img/jogo_area_bloco_cores_cobertura.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:none;
+	
+}
+
+#jogo_area_bloco_textos_btn_ok{
+	position:absolute;
+	width:107px;
+	height:107px;
+	right:144px;
+	bottom:46px;
+	/*background:#ccc;
+	color:#ffffff;
+	font-size:24px;
+	line-height:130%;
+	text-align:center;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';*/
+	background-image: url("../img/jogo_area_bloco_textos_btn_ok.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+	display:inherit;
+	z-index:400;
+}
+#jogo_area_bloco_primo{
+	position:absolute;
+	width:316px;
+	height:76px;
+	right:0px;
+	bottom:162px;
+	z-index:50;
+	color:#ffffff;
+	font-size:30px;
+	line-height:130%;
+	text-align:left;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';
+	text-indent:90px;
+	line-height:72px;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+#jogo_area_bloco_primo_btn{
+	position:absolute;
+	width:68px;
+	height:68px;
+	left:0px;
+	bottom:4px;
+	z-index:42;
+	background-image: url("../img/jogo_area_bloco_primo_btn.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+
+}
+#jogo_area_bloco_nao_primo{
+	position:absolute;
+	width:316px;
+	height:76px;
+	right:0px;
+	bottom:58px;
+	z-index:50;
+	color:#ffffff;
+	font-size:30px;
+	line-height:130%;
+	text-align:left;
+	color:#ffffff;
+	font-family:'CronosPro-Regular';
+	text-indent:90px;
+	line-height:72px;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+#jogo_area_bloco_nao_primo_btn{
+	position:absolute;
+	width:68px;
+	height:68px;
+	left:0px;
+	bottom:4px;
+	z-index:42;
+	background-image: url("../img/jogo_area_bloco_nao_primo_btn.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+}
+#jogo_area_bloco_divisa_btns{
+	position:absolute;
+	width:245px;
+	height:5px;
+	right:60px;
+	bottom:147px;
+	z-index:20;
+	background-image: url("../img/jogo_area_bloco_divisa_btns.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#jogo_area_rodape_tabela{
+	position:absolute;
+	width:100%;
+	height:34px;
+	right:0px;
+	bottom:-5px;
+	z-index:30;
+	background-image: url("../img/jogo_area_bloco_textos.png");
+	background-repeat: repeat-x;
+	background-position: center center;
+	box-shadow:inset 0px 0px 20px #000000;	
+}
+
+#jogo_area_eratostenes{
+	position:absolute;
+	width:343px;
+	height:278px;
+	right:32px;
+	top:2px;
+	z-index:1;
+	background-image: url("../img/jogo_area_eratostenes.png");
+	background-repeat: repeat;
+	background-position: center center;
+}
+#jogo_area_eratostenes_tronco{
+	position:absolute;
+	width:408px;
+	height:278px;
+	right:0px;
+	top:94px;
+	z-index:1;
+	background-image: url("../img/jogo_area_eratostenes_tronco.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#jogo_area_eratostenes_olhos_fechados{
+	position:absolute;
+	width:78px;
+	height:13px;
+	left:141px;
+	top:84px;
+	z-index:1;
+	background-image: url("../img/jogo_area_eratostenes_olhos_fechados.png");
+	background-repeat: repeat;
+	background-position: center center;	
+	
+}
+#jogo_area_eratostenes_boca_aberta{
+	position:absolute;
+	width:42px;
+	height:20px;
+	left:160px;
+	top:138px;
+	z-index:2;
+	background-image: url("../img/teste_boca.png");
+	background-repeat: repeat;
+	background-position: center center;	
+}
+
+/**/
+
+#jogo_area_tabela_ponto_selecao_1, #jogo_area_tabela_ponto_selecao_1_cobertura, #jogo_area_tabela_ponto_selecao_1_cobertura_coluna{
+	left:34px;
+	top:31px;
+}
+#jogo_area_tabela_ponto_selecao_2, #jogo_area_tabela_ponto_selecao_2_cobertura, #jogo_area_tabela_ponto_selecao_2_cobertura_coluna{
+	left:119px;
+	top:31px;
+}
+#jogo_area_tabela_ponto_selecao_3, #jogo_area_tabela_ponto_selecao_3_cobertura, #jogo_area_tabela_ponto_selecao_3_cobertura_coluna{
+	left:204px;
+	top:31px;	
+}
+#jogo_area_tabela_ponto_selecao_4, #jogo_area_tabela_ponto_selecao_4_cobertura, #jogo_area_tabela_ponto_selecao_4_cobertura_coluna{
+	left:289px;
+	top:31px;	
+}
+#jogo_area_tabela_ponto_selecao_5, #jogo_area_tabela_ponto_selecao_5_cobertura, #jogo_area_tabela_ponto_selecao_5_cobertura_coluna{
+	left:374px;
+	top:31px;	
+}
+#jogo_area_tabela_ponto_selecao_6, #jogo_area_tabela_ponto_selecao_6_cobertura , #jogo_area_tabela_ponto_selecao_6_cobertura_coluna{
+	left:459px;
+	top:31px;	
+}
+#jogo_area_tabela_ponto_selecao_7, #jogo_area_tabela_ponto_selecao_7_cobertura, #jogo_area_tabela_ponto_selecao_7_cobertura_coluna{
+	left:544px;
+	top:31px;	
+}
+#jogo_area_tabela_ponto_selecao_8, #jogo_area_tabela_ponto_selecao_8_cobertura{
+	left:34px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_9, #jogo_area_tabela_ponto_selecao_9_cobertura{
+	left:119px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_10, #jogo_area_tabela_ponto_selecao_10_cobertura{
+	left:204px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_11, #jogo_area_tabela_ponto_selecao_11_cobertura{
+	left:289px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_12, #jogo_area_tabela_ponto_selecao_12_cobertura{
+	left:374px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_13, #jogo_area_tabela_ponto_selecao_13_cobertura{
+	left:459px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_14, #jogo_area_tabela_ponto_selecao_14_cobertura{
+	left:544px;
+	top:117px;
+}
+#jogo_area_tabela_ponto_selecao_15, #jogo_area_tabela_ponto_selecao_15_cobertura{
+	left:34px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_16, #jogo_area_tabela_ponto_selecao_16_cobertura{
+	left:119px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_17, #jogo_area_tabela_ponto_selecao_17_cobertura{
+	left:204px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_18, #jogo_area_tabela_ponto_selecao_18_cobertura{
+	left:289px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_19, #jogo_area_tabela_ponto_selecao_19_cobertura{
+	left:374px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_20, #jogo_area_tabela_ponto_selecao_20_cobertura{
+	left:459px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_21, #jogo_area_tabela_ponto_selecao_21_cobertura{
+	left:544px;
+	top:202px;
+}
+#jogo_area_tabela_ponto_selecao_22, #jogo_area_tabela_ponto_selecao_22_cobertura{
+	left:34px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_23, #jogo_area_tabela_ponto_selecao_23_cobertura{
+	left:119px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_24, #jogo_area_tabela_ponto_selecao_24_cobertura{
+	left:204px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_25, #jogo_area_tabela_ponto_selecao_25_cobertura{
+	left:289px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_26, #jogo_area_tabela_ponto_selecao_26_cobertura{
+	left:374px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_27, #jogo_area_tabela_ponto_selecao_27_cobertura{
+	left:459px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_28, #jogo_area_tabela_ponto_selecao_28_cobertura{
+	left:544px;
+	top:288px;
+}
+#jogo_area_tabela_ponto_selecao_29, #jogo_area_tabela_ponto_selecao_29_cobertura{
+	left:34px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_30, #jogo_area_tabela_ponto_selecao_30_cobertura{
+	left:119px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_31, #jogo_area_tabela_ponto_selecao_31_cobertura{
+	left:204px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_32, #jogo_area_tabela_ponto_selecao_32_cobertura{
+	left:289px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_33, #jogo_area_tabela_ponto_selecao_33_cobertura{
+	left:374px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_34, #jogo_area_tabela_ponto_selecao_34_cobertura{
+	left:459px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_35, #jogo_area_tabela_ponto_selecao_35_cobertura{
+	left:544px;
+	top:374px;
+}
+#jogo_area_tabela_ponto_selecao_36, #jogo_area_tabela_ponto_selecao_36_cobertura{
+	left:34px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_37, #jogo_area_tabela_ponto_selecao_37_cobertura{
+	left:119px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_38, #jogo_area_tabela_ponto_selecao_38_cobertura{
+	left:204px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_39, #jogo_area_tabela_ponto_selecao_39_cobertura{
+	left:289px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_40, #jogo_area_tabela_ponto_selecao_40_cobertura{
+	left:374px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_41, #jogo_area_tabela_ponto_selecao_41_cobertura{
+	left:459px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_42, #jogo_area_tabela_ponto_selecao_42_cobertura{
+	left:544px;
+	top:459px;
+}
+#jogo_area_tabela_ponto_selecao_43, #jogo_area_tabela_ponto_selecao_43_cobertura{
+	left:34px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_44, #jogo_area_tabela_ponto_selecao_44_cobertura{
+	left:119px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_45, #jogo_area_tabela_ponto_selecao_45_cobertura{
+	left:204px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_46, #jogo_area_tabela_ponto_selecao_46_cobertura{
+	left:289px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_47, #jogo_area_tabela_ponto_selecao_47_cobertura{
+	left:374px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_48, #jogo_area_tabela_ponto_selecao_48_cobertura{
+	left:459px;
+	top:545px;
+}
+#jogo_area_tabela_ponto_selecao_49, #jogo_area_tabela_ponto_selecao_49_cobertura{
+	left:544px;
+	top:545px;
+}
+/* Animações */
+.personagem_volta{
+    -webkit-animation-name: personagem_volta_quadros;
+    -moz-animation-name: personagem_volta_quadros;
+    -ms-animation-name: personagem_volta_quadros;
+}
+
+@-webkit-keyframes personagem_volta_quadros{
+	from{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:286px;
+	}
+	20%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+	}
+	22%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+	}
+	50%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/		
+	}
+	60%{
+		background-image: url("../img/jogo_area_eratostenes.png");		
+	}	
+	70%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/
+		top:189px;
+		
+	}
+	80%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+		
+	}	
+	100%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:6px;
+		
+	}
+}
+@-moz-keyframes personagem_volta_quadros{
+	from{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:286px;
+	}
+	20%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+	}
+	22%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+	}
+	50%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/		
+	}
+	60%{
+		background-image: url("../img/jogo_area_eratostenes.png");		
+	}	
+	70%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/
+		top:189px;
+		
+	}
+	80%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+		
+	}	
+	100%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:6px;
+		
+	}
+}
+@-ms-keyframes personagem_volta_quadros{
+	from{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:286px;
+	}
+	20%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+	}
+	22%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+	}
+	50%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/		
+	}
+	60%{
+		background-image: url("../img/jogo_area_eratostenes.png");		
+	}	
+	70%{
+		/*background-image: url("../img/jogo_area_eratostenes_2.png");*/
+		top:189px;
+		
+	}
+	80%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:189px;
+		
+	}	
+	100%{
+		background-image: url("../img/jogo_area_eratostenes.png");
+		top:6px;
+		
+	}
+}
+
+.personagem_piscada{
+    -webkit-animation-name: personagem_piscada_quadros;
+    -moz-animation-name: personagem_piscada_quadros;
+    -ms-animation-name: personagem_piscada_quadros;
+}
+
+@-webkit-keyframes personagem_piscada_quadros{
+	0% {opacity:0;}
+	10%  {opacity:1;}
+	10.01%  {opacity:0;}
+	100%  {opacity:0;} 
+}
+@-moz-keyframes personagem_piscada_quadros{
+	0% {opacity:0;}
+	10%  {opacity:1;}
+	10.01%  {opacity:0;}
+	100%  {opacity:0;} 
+}
+
+@-ms-keyframes personagem_piscada_quadros{
+	0% {opacity:0;}
+	10%  {opacity:1;}
+	10.01%  {opacity:0;}
+	100%  {opacity:0;} 
+}
+/*--*/
