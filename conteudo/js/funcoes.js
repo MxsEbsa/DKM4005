@@ -161,7 +161,7 @@ function assistir_video(){
 		alert("8");
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			//document.querySelector("#video_palco").currentTime=0;
-			/ocument.querySelector("#video_palco").play();
+			document.querySelector("#video_palco").play();
 		}else{
 			document.querySelector("#video_palco").currentTime=0;
 			document.querySelector("#video_palco").play();
