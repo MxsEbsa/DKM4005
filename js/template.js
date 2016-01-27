@@ -85,7 +85,7 @@ var Game = function(){
 	animacao_saida_capa();
 	document.querySelector("#videoPrincipalOedVideo").style.display="inherit";
 	document.querySelector(".conteudo").style.background="#ffffff";
-	toggleFullScreen();
+	//toggleFullScreen();
 	document.querySelector("#videoPrincipalOedVideo").play();
 	verificar_video_final();
 	//$('iframe').attr('src','conteudo/game.html');
