@@ -69,7 +69,7 @@ function fechar_video(){
 	//document.mozCancelFullScreen();
 	setTimeout(function(){
 		document.querySelector("#video_area_btn_video").className="nada";
-		document.querySelector("#video_palco").currentTime=0;
+		//document.querySelector("#video_palco").currentTime=0;
 	}, 1000);	
 }
 
@@ -158,9 +158,8 @@ function iniciar_jogo(){
 		
 }
 function assistir_video(){
-		alert("8");
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			//document.querySelector("#video_palco").currentTime=0;
+			//
 			document.querySelector("#video_palco").play();
 		}else{
 			document.querySelector("#video_palco").currentTime=0;
@@ -170,11 +169,13 @@ function assistir_video(){
 		//
 		parar_todos_audios();
 		audio_trilha_sonora.stop();
+		//
 		document.querySelector("#jogo_area_eratostenes_boca_aberta").className="fala_comando_0";
 		document.querySelector("#video_area_btn_video").className="animacao bounceInUp";
 		//
-		document.querySelector("#area_video").className="animacao fadeIn";
 		document.querySelector("#area_video").style.display="inherit";
+		document.querySelector("#area_video").className="animacao fadeIn";
+		
 		//
 		setTimeout(function(){
 			document.querySelector("#area_video").className="nada";
@@ -1067,3 +1068,13 @@ $( "#jogo_area_tabela_ponto_selecao_37").click(function(){fim_etapa_10[7]="p"; v
 $( "#jogo_area_tabela_ponto_selecao_41").click(function(){fim_etapa_10[8]="p"; verificar_fim_fase10(); document.querySelector("#jogo_area_tabela_ponto_selecao_41_cobertura").style.display="none";document.querySelector("#jogo_area_tabela_ponto_selecao_41_cobertura").style.cursor="default";});
 $( "#jogo_area_tabela_ponto_selecao_43").click(function(){fim_etapa_10[9]="p"; verificar_fim_fase10(); document.querySelector("#jogo_area_tabela_ponto_selecao_43_cobertura").style.display="none";document.querySelector("#jogo_area_tabela_ponto_selecao_43_cobertura").style.cursor="default";});
 $( "#jogo_area_tabela_ponto_selecao_47").click(function(){fim_etapa_10[10]="p"; verificar_fim_fase10(); document.querySelector("#jogo_area_tabela_ponto_selecao_47_cobertura").style.display="none";document.querySelector("#jogo_area_tabela_ponto_selecao_47_cobertura").style.cursor="default";});
+
+
+
+function iniciar_com_tap(){
+	alert("Frame");
+	audio_trilha_sonora.play();
+	audio_trilha_sonora.stop();
+	startGame.init();
+	clearInterval(verificar_inicio_cnd);
+}

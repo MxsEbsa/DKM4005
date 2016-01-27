@@ -86,10 +86,11 @@ var Game = function(){
 	document.querySelector("#videoPrincipalOedVideo").style.display="inherit";
 	document.querySelector(".conteudo").style.background="#ffffff";
 	//
-	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		//
 	}else{
 		toggleFullScreen();
-	}*/
+	}
 	//
 	document.querySelector("#videoPrincipalOedVideo").play();
 	verificar_video_final();

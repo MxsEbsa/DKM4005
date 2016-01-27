@@ -291,9 +291,9 @@ var verificar_inicio_cnd;
 	    }
 	  }, 1000);
 	}
-	function iniciar_com_tap(){
+	/*function iniciar_com_tap(){
 	  startGame.init();
-	}
+	}*/
 })();
 
 

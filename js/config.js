@@ -32,7 +32,7 @@ var CONFIG = [
 			// Título do OED  
 			titulo: 'Os primos de Eratóstenes', 
 			// Texto de Instruções do OED 
-			instrucoes: 'Instruções: Suspendisse pulvinar eu sapien sodales porta.<br /><br />Integer pretium dictum nibh nec pharetra. Suspendisse non mauris id tellus tempus pharetra et a nulla. Ut elit tellus, pharetra sit amet congue et, fringilla vel enim...',
+			instrucoes: 'Assista ao vídeo até o final para iniciar o jogo.',
 			// Texto de Navegação do OED
 			navegacao: '',  
 			// Texto Título do Crédito, PROJETO OU COLEÇÃO
