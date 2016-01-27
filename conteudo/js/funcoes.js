@@ -163,7 +163,7 @@ function assistir_video(){
 		document.querySelector("#video_area_btn_video").className="animacao bounceInUp";
 		//parar_todos_audios();
 		audio_trilha_sonora.stop();
-		document.querySelector("#video_palco").currentTime=0;
+		//document.querySelector("#video_palco").currentTime=0;
 		document.querySelector("#area_video").className="animacao fadeIn";
 		document.querySelector("#area_video").style.display="inherit";
 		document.querySelector("#video_palco").play();
