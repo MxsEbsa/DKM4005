@@ -85,7 +85,12 @@ var Game = function(){
 	animacao_saida_capa();
 	document.querySelector("#videoPrincipalOedVideo").style.display="inherit";
 	document.querySelector(".conteudo").style.background="#ffffff";
-	//toggleFullScreen();
+	//
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	}else{
+		toggleFullScreen();
+	}
+	//
 	document.querySelector("#videoPrincipalOedVideo").play();
 	verificar_video_final();
 	//$('iframe').attr('src','conteudo/game.html');

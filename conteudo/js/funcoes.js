@@ -158,7 +158,7 @@ function iniciar_jogo(){
 		
 }
 function assistir_video(){
-		alert("5");
+		alert("7");
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			//document.querySelector("#video_palco").currentTime=0;
 			//document.querySelector("#video_palco").play();
@@ -171,8 +171,7 @@ function assistir_video(){
 		//
 		document.querySelector("#jogo_area_eratostenes_boca_aberta").className="fala_comando_0";
 		document.querySelector("#video_area_btn_video").className="animacao bounceInUp";
-
-		
+		//
 		document.querySelector("#area_video").className="animacao fadeIn";
 		document.querySelector("#area_video").style.display="inherit";
 		//
