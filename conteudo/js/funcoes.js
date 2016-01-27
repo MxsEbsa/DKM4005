@@ -1072,7 +1072,6 @@ $( "#jogo_area_tabela_ponto_selecao_47").click(function(){fim_etapa_10[10]="p"; 
 
 
 function iniciar_com_tap(){
-	alert("Frame");
 	audio_trilha_sonora.play();
 	audio_trilha_sonora.stop();
 	startGame.init();
