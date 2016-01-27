@@ -158,15 +158,23 @@ function iniciar_jogo(){
 		
 }
 function assistir_video(){
-		alert("4");
+		alert("5");
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			//document.querySelector("#video_palco").currentTime=0;
+			//document.querySelector("#video_palco").play();
+		}else{
+			document.querySelector("#video_palco").currentTime=0;
+			document.querySelector("#video_palco").play();
+		}
+		//
 		document.querySelector("#jogo_area_eratostenes_boca_aberta").className="fala_comando_0";
 		document.querySelector("#video_area_btn_video").className="animacao bounceInUp";
-		//parar_todos_audios();
+		parar_todos_audios();
 		audio_trilha_sonora.stop();
-		//document.querySelector("#video_palco").currentTime=0;
+		
 		document.querySelector("#area_video").className="animacao fadeIn";
 		document.querySelector("#area_video").style.display="inherit";
-		//document.querySelector("#video_palco").play();
+		//
 		setTimeout(function(){
 			document.querySelector("#area_video").className="nada";
 			document.querySelector("#video_area_btn_video").className="nada";
